@@ -1,2 +1,9 @@
 How do we choose a good k for clustering?
+Look at the dataset.Try with different ks. if we are getting the centroids of the clusters as very close then our k is too small.
+
+
+
+Using DBSCAN:
+We maybe can calculate the maximum distance between any two point in the dataset and choose this as the epsilon for DBSCAN and 
+then the number of clusters obtained will probably be the optimal k for Kmeans
 
