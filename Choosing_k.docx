@@ -1,5 +1,5 @@
 How do we choose a good k for clustering?
-Look at the dataset.Try with different ks. if we are getting the centroids of the clusters as very close then our k is too small.
+Look at the dataset.Try with different ks. if the standard deviatiion of one of the cluster from the centroid is too large while compared to other clusters, then our k is too small.
 
 
 
