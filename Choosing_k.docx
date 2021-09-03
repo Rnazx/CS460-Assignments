@@ -1,9 +1,6 @@
 How do we choose a good k for clustering?
 Look at the dataset.Try with different ks. if the standard deviatiion of one of the cluster from the centroid is too large while compared to other clusters, then our k is too small.
+Basically we are saying that if the mean is skewd toward one set of the cluster then it is probably better to split it up into two clusters.
 
 
-
-Using DBSCAN:
-We maybe can calculate the maximum distance between any two point in the dataset and choose this as the epsilon for DBSCAN and 
-then the number of clusters obtained will probably be the optimal k for Kmeans
 
